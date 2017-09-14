@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/angular.min.js"></script>
+    <script src="./js/angular-route.min.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <header ng-controller="headCtrl">
+        <div class="option" ng-click="minimize()">&#x2716</div>
+        <div class="option" id="maximize()">&#x1f5d6</div>
+        <div class="option" id="close()">&#x1f5d5</div>
+      </header>
+      <div id="text">Hello World!</div>
+    </div>
+  </body> 
+  <script src="./js/script.js"></script>
+  <script>
+    // You can also require other files to run in this process
+    //require('./renderer.js')
+    //require('./js/script.js')
+  </script>
+</html>

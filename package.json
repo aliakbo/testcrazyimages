@@ -1,0 +1,12 @@
+{
+    "name": "crazyimages",
+    "version": "1.0.0",
+    "description": "Best image editor ever",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "aliakbo",
+    "license": "ISC"
+  }
+  

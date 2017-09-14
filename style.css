@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background: #353535;
+    color: black;
+    align-self: stretch;
+    -webkit-app-region: drag;
+}
+
+
+.option{
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+    -webkit-app-region: no-drag;
+}
+
+.option:hover{
+    background: red;
+}
