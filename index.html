@@ -10,17 +10,12 @@
   <body>
     <div id="content">
       <header ng-controller="headCtrl">
-        <div class="option" ng-click="minimize()">&#x2716</div>
-        <div class="option" id="maximize()">&#x1f5d6</div>
-        <div class="option" id="close()">&#x1f5d5</div>
+        <div class="option" ng-click="minimize()">&#x2716;</div>
+        <div class="option" ng-click="maximize()">&#x1f5d6;</div>
+        <div class="option" ng-click="close()">&#x1f5d5;</div>
       </header>
       <div id="text">Hello World!</div>
     </div>
+    <script src="./js/script.js"></script>
   </body> 
-  <script src="./js/script.js"></script>
-  <script>
-    // You can also require other files to run in this process
-    //require('./renderer.js')
-    //require('./js/script.js')
-  </script>
 </html>

@@ -1,10 +1,10 @@
 var app = angular.module('app', ['ngRoute']);
-
+console.log(app);
 const {remote} = require('electron');
 
 app.config(function($routeProvider) {
-    $routeProvider.while ('/', {
-        templateUrl: './componets/home/home.html',
+    $routeProvider.when ('/', {
+        templateUrl: './components/home/home.html',
         controller: 'homeCtrl'
     }) 
          
@@ -28,4 +28,3 @@ app.controller('headCtrl', function($scope){
 app.controller('homeCtrl', function($scope){
 
 });
-    
