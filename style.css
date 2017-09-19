@@ -69,6 +69,10 @@ div#imageEditor {
     flex-direction: row;
 }
 
+div.effectType:hover {
+    background: #e6e6e6;
+}
+
 div.effectType {
     width: 50%;
     display: flex;
@@ -77,4 +81,110 @@ div.effectType {
     align-self: stretch;
     font-size: 1.5rem;
     cursor: pointer;
+    border: 3px solid #eee;
+}
+
+div#liveEffects {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+/* slider */
+
+.range-slider {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .slider-input {
+    -webkit-appearance: none;
+    width: calc(100% - (73px));
+    height: 10px;
+    border-radius: 5px;
+    background: #d7dcdf;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slider-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+            
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2c3e50;
+    cursor: pointer;
+    -webkit-transition: background .15s ease-in-out;
+    transition: background .15s ease-in-out;
+  }
+  
+  .slider-input::-webkit-slider-thumb:hover {
+    background: #1abc9c;
+  }
+  .slider-input:active::-webkit-slider-thumb {
+    background: #1abc9c;
+  }
+  
+  /* slider */
+
+  .effect {
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.goBack {
+    width: 90px;
+    height: 90px;
+    background: #d7dcdf;
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.effectName {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+div#preview {
+    background: #4c4c4c;
+}
+
+header:before {
+    content: 'Crazy Images';
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    color: white;
+    font-size: 25px;
+}
+
+div#usefulButtons div {
+    padding: 10px 25px;
+    margin: 10px;
+    background: #353535;
+    color: white;
+    cursor: pointer;
+}
+
+
+div#usefulButtons {
+    align-self: stretch;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
